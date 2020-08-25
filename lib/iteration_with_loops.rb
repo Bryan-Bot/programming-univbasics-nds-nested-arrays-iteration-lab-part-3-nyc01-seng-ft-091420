@@ -13,4 +13,5 @@ while count < src.length do
   index_src += 1
 end
 count += 1
+string
 end
