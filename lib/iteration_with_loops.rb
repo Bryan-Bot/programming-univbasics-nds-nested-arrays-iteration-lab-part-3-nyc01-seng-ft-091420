@@ -11,5 +11,7 @@ while count < src.length do
     if src[count] == String
       src.join('')
   end
+  index_src += 1
 end
+count += 1
 end
