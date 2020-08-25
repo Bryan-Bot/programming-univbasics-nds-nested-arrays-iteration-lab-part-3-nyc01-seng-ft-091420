@@ -5,11 +5,10 @@ count = 0
 string = ''
 
 while count < src.length do
-
   index_src = 0
-  while index_src < src[count] do
-    if src[count] == String
-      string = src.join('')
+  while index_src < src[count].length do
+    if src[count][index_src].class.to_s == Strings
+      string = src[count][index_src].join(' ')
   end
   index_src += 1
 end
