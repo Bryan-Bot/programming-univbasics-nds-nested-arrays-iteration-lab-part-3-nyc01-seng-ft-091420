@@ -9,9 +9,10 @@ while count < src.length do
   while index_src < src[count].length do
     if src[count][index_src].class.to_s == 'String'
       string += src[count][index_src]+ " "
+    end
       index_src += 1
-end
+    end
 count += 1
-end
+  end
 return string
 end
