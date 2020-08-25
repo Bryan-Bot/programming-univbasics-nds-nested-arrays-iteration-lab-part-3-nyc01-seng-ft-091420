@@ -8,7 +8,7 @@ while count < src.length do
   index_src = 0
   while index_src < src[count].length do
     if src[count][index_src].class.to_s == 'String'
-      string = src[count][index_src].join(' ')
+      string += src[count][index_src] + " "
   end
   index_src += 1
 end
