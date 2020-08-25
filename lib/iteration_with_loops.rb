@@ -14,5 +14,5 @@ while count < src.length do
     end
 count += 1
   end
-return string
+string
 end
