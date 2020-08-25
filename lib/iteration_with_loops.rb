@@ -9,7 +9,7 @@ while count < src.length do
   index_src = 0
   while index_src < src[count] do
     if src[count] == String
-      src.join('')
+      string = src.join('')
   end
   index_src += 1
 end
